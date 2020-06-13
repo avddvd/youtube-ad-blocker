@@ -1,0 +1,22 @@
+{
+    "name": "Youtube Ad blocker",
+    "version": "1.0",
+    "description": "Block ads on youtube!",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+    "webRequest",
+    "*://*.youtube.com/*",
+    "webRequestBlocking",
+    "tabs"
+    ],
+    "icons": {
+        "16": "images/ad-blocker16.png",
+        "32": "images/ad-blocker32.png",
+        "64": "images/ad-blocker64.png",
+        "128": "images/ad-blocker128.png"
+    },
+    "title": "Youtube Adblocker"
+}
